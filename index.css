@@ -110,6 +110,7 @@ main {
 h1 {
   font-size: 60px;
   margin-top: -2%;
+  font-weight: bold;
 }
 
 p {
