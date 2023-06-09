@@ -60,16 +60,16 @@ h4 {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100vw;
 }
 
 #homeup {
-    display: flex;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 #img_div {
@@ -90,11 +90,11 @@ main {
 }
 
 .img_fortes {
-    margin-top: 2%;
-    width: 40%;
-    height: 70%;
-    border-radius: 10%;
-    border: 1px solid black;
+  margin-top: 2%;
+  width: 40%;
+  height: 70%;
+  border-radius: 10%;
+  border: 1px solid black;
 }
 
 #homedown {
