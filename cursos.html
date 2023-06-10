@@ -42,6 +42,68 @@
       </div>
     </header>
 
-    <script src="index.js"></script>
+    <h1>Cursos de Colaborador</h1>
+    <main>
+      <section id="importante">
+        <div class="importante">
+          <h5>--Importante--</h5>
+          <div class="div_radio">
+            <input type="radio" name="imp" id="cursos_radio" checked />
+            <label for="cursos_radio">Cursos</label>
+          </div>
+          <div class="div_radio">
+            <input type="radio" name="imp" id="avisos" />
+            <label for="avisos">Avisos</label>
+          </div>
+          <div class="div_radio">
+            <input type="radio" name="imp" id="calendario" />
+            <label for="calendario">Calendário</label>
+          </div>
+          <div class="div_radio">
+            <input type="radio" name="imp" id="suporte" />
+            <label for="suporte">Suporte</label>
+          </div>
+          <div class="div_radio">
+            <input type="radio" name="imp" id="mensagens" />
+            <label for="mensagens">Mensagens</label>
+          </div>
+        </div>
+      </section>
+
+      <section id="cursos_disponiveis">
+        <div class="curso_div" id="curso1">
+          <button class="botao_curso" id="botao_curso1" onclick="mostrarOcultar1()">
+            <img class="icone_curso" id="icone_curso1" src="olhooff.png" alt="" />
+          </button>
+          <h2>Curso 1</h2>
+          <h3>Professor:</h3>
+          <div class="progresso" id="progresso1"></div>
+        </div>
+        <div class="div_hide" id="hide1">
+          <h3 class="post">Post 1</h3>
+          <div class="div2_hide">
+          <button class="botao_hide"><img class="img_hide" src="download.png" alt="">Material</button>
+          <button class="botao_hide"><img class="img_hide" src="atividade.png" alt="">Atividade</button>
+          </div>
+        </div>
+
+        <div class="curso_div" id="curso2">
+          <button class="botao_curso" id="botao_curso2" onclick="mostrarOcultar2()">
+            <img class="icone_curso" id="icone_curso2" src="olhooff.png" alt="" />
+          </button>
+          <h2>Curso 2</h2>
+          <h3>Professor:</h3>
+          <div class="progresso" id="progresso2"></div>
+        </div>
+        <div class="div_hide" id="hide2">
+          <h3 class="post">Post 2</h3>
+          <div class="div2_hide">
+          <button class="botao_hide"><img class="img_hide" src="download.png" alt="">Material</button>
+          <button class="botao_hide"><img class="img_hide" src="atividade.png" alt="">Atividade</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="cursos.js"></script>
   </body>
 </html>

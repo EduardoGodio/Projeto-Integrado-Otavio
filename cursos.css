@@ -58,3 +58,191 @@
     text-decoration: none;
     font-family: montserrat;
   }
+
+  main {
+    width: 100vw;
+    height: 81vh;
+    display: flex;
+  }
+
+  h1 {
+    font-family: montserrat;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 5%;
+  }
+
+  #importante {
+    width: 20%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  h5 {
+    color: #f2f2f2;
+    font-family: montserrat;
+    font-size: 140%;
+  }
+
+  .importante {
+    background-color: #2172d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 54%;
+    height: 27%;
+    border: 1px solid black;
+  }
+
+  .div_radio {
+    color: #f2f2f2;
+    font-size: 120%;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  #cursos_disponiveis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .curso_div {
+    background-color: #739FD5;
+    width: 80%;
+    height: 40%;
+    border-radius: 20px;
+    margin-left: 5%;
+    border: 2px solid black;
+    font-family: montserrat;
+  }
+
+  #curso1 {
+    margin-top: 2%;
+  }
+
+  #curso2 {
+    margin-top: 5%;
+  }
+
+  h2 {
+    color: #262626;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: -2%;
+  }
+
+  h3 {
+    color: #f2f2f2;
+    font-size: 30px;
+    margin-left: 4%;
+  }
+
+  .progresso {
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 90%;
+    height: 10%;
+    border: 1px solid #262626;
+    background-color: #f2f2f2;
+    position: relative;
+  }
+
+  #progresso1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 37%;
+    height: 100%;
+    background-color: lightgrey;
+  }
+
+  #progresso2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    background-color: lightgrey;
+  }
+
+  .icone_curso {
+    width: 100%;
+    height: 100%;
+  }
+
+  .botao_curso {
+    display: flex;
+    width: 4%;
+    height: 20%;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 94%;
+  }
+
+  .div_hide {
+    display: flex;
+    font-family: roboto;
+    background-color: rgb(168, 167, 167);
+    flex-direction: column;
+    width: 60%;
+    height: 30%;
+    margin-left: 25%;
+    border: 2px solid #262626;
+    border-radius: 5px;
+  }
+
+  #hide1 {
+    display: none;
+  }
+
+  #hide2 {
+    display: none;
+  }
+
+  .div2_hide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .post {
+    margin-top: 1%;
+    color: #262626;
+    font-size: 40px;
+  }
+
+  .botao_hide {
+    margin-top: 2.3%;
+    display: flex;
+    justify-content: left;
+    height: 60%;
+    width: 30%;
+    background-color: #f2f2f2;
+    color: #262626;
+    font-size: 30px;
+    align-items: center;
+  }
+
+  .botao_hide:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+
+  .img_hide {
+    width: 15%;
+    height: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
