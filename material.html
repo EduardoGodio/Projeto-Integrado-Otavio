@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="material.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Material</title>
+  </head>
+  <body>
+    <header id="nav">
+      <img id="fortes" src="FORTES_LOGOMARCA-300x91.png" alt="" />
+      <div class="div_nav" id="home">
+        <a href="index.html" class="icone_a">
+          <img class="icone_nav" src="homein.png" alt=""
+        /></a>
+        <a class="nav_a" href="index.html"><h4>Home</h4></a>
+      </div>
+      <div class="div_nav" id="cursos">
+        <a href="cursos.html" class="icone_a">
+          <img class="icone_nav" src="cursosoff.png" alt=""
+        /></a>
+        <a class="nav_a" href=""><h4>Cursos</h4></a>
+      </div>
+      <div class="div_nav" id="recompensas">
+        <a href="recompensas.html" class="icone_a"
+          ><img class="icone_nav" src="recompensasoff.png" alt=""
+        /></a>
+        <a class="nav_a" href=""><h4>Recompensas</h4></a>
+      </div>
+      <div class="div_nav" id="ajuda">
+        <a href="ajuda.html" class="icone_a"
+          ><img class="icone_nav" src="ajudaoff.png" alt=""
+        /></a>
+        <a class="nav_a" href=""><h4>Ajuda e Contato</h4></a>
+      </div>
+    </header>
+
+    <main id="main1">
+      <section id="video">
+        <iframe
+          src="https://www.youtube.com/embed/dMacdG2I5q0"
+          title="video_exemplo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="material">
+        <div id="div_material">
+          <h5>Material da Aula</h5>
+          <button class="botao_material">
+            <img class="img_material" src="download.png" alt="" />Material.pdf
+          </button>
+          <button class="botao_material">
+            <img class="img_material" src="download.png" alt="" />Material.mp4
+          </button>
+        </div>
+      </section>
+    </main>
+    <main id="main2">
+      <section id="descricao">
+        <h2>Descrição da aula</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae dolorem
+          aliquam praesentium eum sunt repudiandae nostrum, odio molestias
+          voluptatem enim beatae quis, debitis illo? Omnis obcaecati vitae
+          consequatur velit harum. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Ab incidunt doloribus error ex repellendus laborum
+          hic libero molestiae! Modi sequi repudiandae vero ut vitae sint
+          labore, pariatur unde fugiat harum. <br> Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Nostrum, ipsum? Iusto magni sapiente
+          praesentium et facere laborum consectetur perferendis officia vero.
+          Officiis aliquid, a modi libero perspiciatis architecto molestias
+          repellendus.
+        </p>
+      </section>
+    </main>
+    <main id="main3">
+      <section id="comentario">
+        <div id="div_comentario">
+        <h3>Tire sua Dúvida</h3>
+        <div id="div_form">
+        <form>
+            <label for="comentar"></label>
+            <input type="text" name="coment" id="coment" placeholder="Insira seu Comentário">
+        </form>
+        <img id="img_comentario" src="comentario.png" alt="">
+        </div>
+        </div>
+      </section>
+      <section id="atividade">
+        <button id="botao_atividade" onclick="irAtividade()"><img id="img_atividade" src="atividade.png" alt="">Atividade</button>
+      </section>
+    </main>
+    <script src="material.js"></script>
+  </body>
+</html>
