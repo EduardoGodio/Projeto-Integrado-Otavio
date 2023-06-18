@@ -41,5 +41,180 @@
         <a class="nav_a" href=""><h4>Ajuda e Contato</h4></a>
       </div>
     </header>
+
+    <main>
+      <section id="pesquisa">
+        <div id="div_pesquisa">
+          <div id="search" class="logoclass">
+            <img src="search.png" alt="" class="logo" />
+          </div>
+          <div id="form">
+            <form>
+              <label for="pesquisar"></label>
+              <input type="text" name="pesquisa" id="pesquisass" />
+            </form>
+          </div>
+          <div id="mic" class="logoclass">
+            <img src="mic.png" alt="" class="logo" />
+          </div>
+        </div>
+      </section>
+      <section id="content">
+        <div id="div_topicos">
+          <div id="topicos">
+            <h1>Tópicos</h1>
+            <div class="topicos">
+              <input type="radio" name="top" id="erros" class="radio" checked />
+              <label for="erros" class="radio">Erros e bugs</label>
+            </div>
+            <div class="topicos">
+              <input type="radio" name="top" id="cursos" class="radio" />
+              <label for="cursos" class="radio">Cursos</label>
+            </div>
+            <div class="topicos">
+              <input type="radio" name="top" id="recompensas" class="radio" />
+              <label for="recompensas" class="radio">Recompensas</label>
+            </div>
+            <div class="topicos">
+              <input type="radio" name="top" id="contato" class="radio" />
+              <label for="contato" class="radio">Contato</label>
+            </div>
+            <div class="topicos">
+              <input type="radio" name="top" id="mensagens" class="radio" />
+              <label for="mensagens" class="radio">Mensagens</label>
+            </div>
+          </div>
+        </div>
+        <div id="div_faq">
+          <div class="pergunta">
+            <div class="sla">
+              <p class="perguntap">
+                1. Pergunta: Como posso entrar em contato com a equipe por meio
+                do site ?
+              </p>
+              <button
+                class="mostrarocultar"
+                id="pergunta1"
+                onclick="pergunta1()"
+              >
+                <img
+                  src="arrowoff.png"
+                  alt=""
+                  class="logo"
+                  id="pergunta1_logo"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="hidep1" id="hidep1">
+            <div class="resposta">
+              <p class="hidetxt">
+                Resposta: Os meios de contato estão disponíveis abaixo.
+              </p>
+            </div>
+          </div>
+          <div class="pergunta">
+            <div class="sla">
+              <p class="perguntap">
+                2. Pergunta: Como posso resgatar as recompensas ?
+              </p>
+              <button
+                class="mostrarocultar"
+                id="pergunta2"
+                onclick="pergunta2()"
+              >
+                <img
+                  src="arrowoff.png"
+                  alt=""
+                  class="logo"
+                  id="pergunta2_logo"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="hidep2" id="hidep2">
+            <div class="resposta">
+              <p class="hidetxt">
+                Resposta: Visite a aba "Recompensas" e selecione a recompensa
+                desejada.
+              </p>
+            </div>
+          </div>
+          <div class="pergunta">
+            <div class="sla">
+              <p class="perguntap">
+                3. Pergunta: Em qual seção posso fazer o download dos materiais
+                ?
+              </p>
+              <button
+                class="mostrarocultar"
+                id="pergunta3"
+                onclick="pergunta3()"
+              >
+                <img
+                  src="arrowoff.png"
+                  alt=""
+                  class="logo"
+                  id="pergunta3_logo"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="hidep3" id="hidep3">
+            <div class="resposta">
+              <p class="hidetxt">
+                Resposta: Visite a aba "Cursos", selecione o curso desejado e
+                clique no botão "Material".
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div id="txt">
+          <p id="nenhum">
+            Nenhuma Pergunta Relacionada à sua ? <br />
+            Entre em Contato Conosco.
+          </p>
+        </div>
+        <div id="links">
+          <div id="linkup">
+            <div class="refs">
+              <a href="" class="ahref">
+                <img src="ajudaoff.png" alt="" class="logo" />
+              </a>
+              <p class="desc">(27) 3325-8883</p>
+            </div>
+            <div class="refs">
+              <a
+                href="https://www.instagram.com/fortesengenharialtda/"
+                class="ahref"
+              >
+                <img src="instagram.png" alt="" class="logo" />
+              </a>
+              <p class="desc">@fortesengenharialtda</p>
+            </div>
+          </div>
+          <div id="linkdown">
+            <div class="refs">
+              <a href="" class="ahref">
+                <img src="mail.png" alt="" class="logo" />
+              </a>
+              <p class="desc">fortes@fortes.ind.br</p>
+            </div>
+            <div class="refs">
+              <a
+                href="https://www.linkedin.com/company/fortes-engenharia-ltda/"
+                class="ahref"
+              >
+                <img src="linkedin.png" alt="" class="logo" />
+              </a>
+              <p class="desc">Fortes Engenharia</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="ajuda.js"></script>
   </body>
 </html>
